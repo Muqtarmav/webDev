@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Media</title>
+</head>
+<body>
+<div>
+<video id = "video" poster = "preview.ogv" controls width = "480" height = "360" >
+ <source src= "sample.mp4" type = 'video/mp4; codecs = "avc1.42E01E, mp4a.40.2" '>
+ <source src= "sample.webm" type = 'video/webm; codecs = "vp8, vorbis" '>
+  <source src= "Video/Tom_and_Jerry_Jolly_Fish_1932.ogv" type = 'video/ogg; codecs = "theora, vorbis" '>
+
+  <!-- use flash if videoformat is not supported -->
+  <object width = "480" height = "360" type ="application/x-shockwaveflash" data = "sample.swf" >
+  <param name = "movie" value = "sample.swf" >
+    <param name = "flashvars" value = "controlbar = over&amp ; image=preview.png&amp; file = sample.mp4">
+   <img src = "preview.jpg" width = "480" height = "360" title = "video not supported">
+    </object>
+
+</video>
+    <hr>
+    </div>
+<audio id = "example" controls preload="auto">
+
+    <source src = "Audio/Davido-i-got-a-friend.mp3"> type = "audio/mp3">
+    <source src = "example.wav"> type = "audio/webm">
+    <source src = "example.webm"> type = "audio/webm">
+    <p>Browser doesnt support audio </p>
+</audio>
+
+<div>
+
+
+</div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+p {
+    color: white;
+    padding:20px 0px 0px 20px;
+    line-height: 10px ;
+
+}
+button{
+
+}
+
+.col{
+    background-color: white;
+}
+.col1 {
+   background-color: dodgerblue;
+}
+.col2{
+    background-color: lightblue;
+}
+h1{
+    color: dodgerblue;
+}
+h2{
+    color: yellowgreen;
+}
+h3{
+    color: grey;
+}
+
+bocy{
+
+}

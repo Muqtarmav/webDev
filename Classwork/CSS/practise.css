@@ -1,0 +1,17 @@
+p{
+    color: dodgerblue;
+}
+p.Example1 {
+    display: none;
+
+}
+p.Example2{
+    display: block;
+
+}
+p.Example3{
+    display: inline;
+}
+p.Example4{
+    display: inline-block;
+}

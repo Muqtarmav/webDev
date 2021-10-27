@@ -1,0 +1,29 @@
+
+table tr:hover {
+    background-color: cadetblue;
+
+    }
+
+body{
+    background-color: pink;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        background-color: lightgreen;
+    }
+    img{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    body {
+        background-color: black;
+    }
+}
+
+
+
+
+
